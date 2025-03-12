@@ -14,11 +14,12 @@ public class FPS_Tutorial : ModuleRules
 			"Engine", 
 			"InputCore", 
 			"EnhancedInput",
-			"OnlineSubsystem"
-		});
+			"OnlineSubsystem",
+            "OnlineSubsystemSteam"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
-		//DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
+        //DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
 
         // Uncomment if you are using Slate UI
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
@@ -27,6 +28,6 @@ public class FPS_Tutorial : ModuleRules
         // PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
         // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
-        
+
     }
 }
